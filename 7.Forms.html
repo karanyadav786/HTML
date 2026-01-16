@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+        <!--                              FORMS                                                          * Forms are used to take input from the user and perform some actions by giving the input data  to some action file-->
+
+        <!--RADIO : can only select one option from multiple options-->
+        <!--CHECKBOX : can select multiple options from given options-->
+        <!--TEXTAREA :  give some area to write anything like feedback area-->
+        <!--SELECT : there are many options given in the LIST, choose only one -->
+        <!--SUBMIT : to submit the form to the action file-->
+        <!--LABEL : we can select the option by clicking the text too with usage of label -->
+        
+
+
+
+        <form action="/action.php">
+
+                <input type="text"     placeholder="Username"> 
+                <br>
+                <input type="password" placeholder="Password">
+                <br>
+                <br>
+                <br>
+
+                
+                 RADIOBUTTON (without label)
+                 <br>
+
+                <input type="radio" value="class 9" name="standard">Class 9
+                <br>
+                <input type="radio" value="class 10" name="standard">Class 10
+                <br>
+                <input type="radio" value="class 11" name="standard">Class 11
+                <br>
+                <input type="radio" value="class 12" name="standard">Class12
+                <br>
+                <br>
+                <br>
+
+
+                 RADIOBUTTON (With label)
+                 <br>
+
+                <label >
+                    <input type="radio" value="class 9" name="Standard">Class 9
+                </label>
+                <br>
+
+                <label >
+                    <input type="radio" value="class 10" name="Standard">Class 10
+                </label>
+                <br>
+
+                <label >
+                    <input type="radio" value="class 11" name="Standard">Class 11
+                </label>
+                <br>
+
+                <label >
+                    <input type="radio" value="class 12" name="Standard">Class 12
+                </label>
+                <br>
+                <br>
+                <br>
+               
+
+
+
+
+                CHECKBOX
+                <br>
+
+                 <label for="101">
+                    <input type="checkbox" value="Maths" name="subject" id="101">Maths
+                 </label>
+                 <br>
+
+                 <label for="102">
+                    <input type="checkbox" value="Physics" name="subject" id="102">Physics
+                 </label>
+                 <br>
+
+                 <label for="103">
+                    <input type="checkbox" value="Chemistry" name="subject" id="103">Chemistry
+                 </label>
+                 <br>
+
+                 <label for="104">
+                    <input type="checkbox" value="Biology" name="subject" id="104">Biology
+                 </label>
+                 <br>
+
+                 <label for="105">
+                    <input type="checkbox" value="Computer" name="subject" id="105">Computer 
+                 </label>
+                 <br>
+                 <br>
+              
+                
+                 
+
+
+
+                 TEXTAREA
+                 <br>
+
+
+                 <textarea name="feedback_area" id="200" placeholder="please enter your useer experience" rows="5" columns="5">Very Good Experience</textarea>
+                 <br>
+                 <br>
+                
+
+
+                SELECT
+                <br>
+
+                 <select>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Mohali">Mohali</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Himachal">Himachal</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Mizoram">Mizoram</option>
+                 </select>
+                 <br>
+                 <br>
+                
+               
+
+                SUBMIT BUTTON
+                <br>
+
+                 <input type="submit" value="click to submit" >
+                 <br>
+
+                 
+
+
+        </form>
+                
+
+
+        
+       
+        
+
+</body>
+</html>
